@@ -5,6 +5,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
   return object
 }
 
-function updateObjectwithKetAndValue(targetObject, updatesObject) {
+function updateObjectwithKetAndValue(object, key, value) {
   return object.assign({}, targetObject, updatesObject)
 }
